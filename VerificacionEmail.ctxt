@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=VerificacionEmail
+comment1.params=correoDestino\ codigo\ enviado
+comment1.target=VerificacionEmail(java.lang.String,\ java.lang.String,\ boolean)
+comment2.params=
+comment2.target=void\ enviarCodigo()
+comment3.params=
+comment3.target=void\ validarCodigo()
+comment4.params=
+comment4.target=void\ reenviarCodigo()
+numComments=5
