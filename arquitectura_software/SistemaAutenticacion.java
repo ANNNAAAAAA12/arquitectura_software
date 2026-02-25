@@ -1,3 +1,5 @@
+package arquitectura_software;
+
 public class SistemaAutenticacion {
 
     private String nombreSistema;
