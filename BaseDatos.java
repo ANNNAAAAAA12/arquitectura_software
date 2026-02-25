@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 public class BaseDatos implements IRepositorioUsuarios {
+=======
+public class BaseDatos {
+>>>>>>> dd128293c2236e3edecf05e7b784832ba2edbce9
 
     private String nombre;
     private int cantidadRegistros;
@@ -11,6 +15,7 @@ public class BaseDatos implements IRepositorioUsuarios {
     }
 
     public void conectar() {
+<<<<<<< HEAD
     }
 
     @Override
@@ -22,5 +27,16 @@ public class BaseDatos implements IRepositorioUsuarios {
     }
 
     public void cerrarConexion() {
+=======
+        
+    }
+
+    public void guardarDatos() {
+        
+    }
+
+    public void cerrarConexion() {
+        
+>>>>>>> dd128293c2236e3edecf05e7b784832ba2edbce9
     }
 }

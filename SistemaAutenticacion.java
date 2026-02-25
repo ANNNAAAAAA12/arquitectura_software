@@ -4,6 +4,7 @@ public class SistemaAutenticacion {
     private int totalUsuarios;
     private boolean activo;
 
+<<<<<<< HEAD
     // Dependencias por interfaces (DIP)
     private IRepositorioUsuarios repositorio;
     private IProveedorAutenticacion proveedor;
@@ -28,5 +29,23 @@ public class SistemaAutenticacion {
 
     public void eliminarUsuario(String correo) {
         repositorio.eliminarUsuario(correo);
+=======
+    public SistemaAutenticacion(String nombreSistema, int totalUsuarios, boolean activo) {
+        this.nombreSistema = nombreSistema;
+        this.totalUsuarios = totalUsuarios;
+        this.activo = activo;
+    }
+
+    public void registrarUsuario() {
+        
+    }
+
+    public void validarUsuario() {
+        
+    }
+
+    public void eliminarUsuario() {
+        
+>>>>>>> dd128293c2236e3edecf05e7b784832ba2edbce9
     }
 }
